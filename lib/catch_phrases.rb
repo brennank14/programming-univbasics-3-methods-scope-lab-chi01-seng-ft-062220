@@ -9,14 +9,14 @@ def toadstool
 end
 
 def link
-  help
-  puts "It's Dangerous To Go Alone! Take This."
+  help = "It's Dangerous To Go Alone! Take This."
+  puts help
 end
 
 def all_phrases(mario, toadstool, link)
-  puts phrase
-  puts status
-  puts help
+  mario
+  toadstool
+  link
 end
 
 all_phrases
